@@ -11,4 +11,6 @@ int main()
     {
         //deklarasi array data dengan panjanng index 3
         array <int, 3> data = { 1, 2, 3 };
-
+        //memanggil array element ke-5 yang berarti akan terjadi error
+        cout << data.at(5) << endl;
+    }
