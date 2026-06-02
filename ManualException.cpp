@@ -7,5 +7,7 @@ int main()
     try
     {
         cout << "Selamat belajar di prodi TI UMY" << endl;
+        //throw 0.5; // melemperkan sebuah interger maka
+        cout << "Pernyataan tidak akan ditampilkan" << endl;
     }
 }
