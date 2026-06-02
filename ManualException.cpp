@@ -10,4 +10,9 @@ int main()
         //throw 0.5; // melemperkan sebuah interger maka
         cout << "Pernyataan tidak akan ditampilkan" << endl;
     }
+    //kondisi jika throw yg bertipe data interger
+    catch(int a)
+    {
+        cout << "Pengecualian akan di eksekusi" << endl;
+    }
 }
